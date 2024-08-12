@@ -21,7 +21,7 @@ This project implements authentication functionality using NextAuth, including u
 ![SignIn](app/screenshots/Signin.png)
 
 ### Verification
-![verification](app/screenshots/verify.png)
+![verification](app/screenshots/Verify.png)
 
 ### Dashboard
 ![Dashboard](app/screenshots/Dashboard.png)
