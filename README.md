@@ -17,11 +17,11 @@ This project implements authentication functionality using NextAuth, including u
 ### Sign Up
 ![SignIn](app/screenshots/Signup.png)
 
-### Sign In
-![SignIn](app/screenshots/Signin.png)
-
 ### Verification
 ![verification](app/screenshots/Verify.png)
+
+### Sign In
+![SignIn](app/screenshots/Signin.png)
 
 ### Dashboard
 ![Dashboard](app/screenshots/Dashboard.png)
