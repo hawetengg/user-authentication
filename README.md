@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# User Authentication with NextAuth
 
-## Getting Started
+## Objective
 
-First, run the development server:
+This project implements authentication functionality using NextAuth, including user signup and sign-in pages. It integrates with provided API endpoints for user registration and authentication.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **User Signup:** Allows users to create a new account with their email, password, and additional information.
+- **User Sign In:** Enables users to log in using their email and password.
+- **Email Verification:** Provides functionality to verify the user's email address with a one-time password (OTP).
+- **Secure Token Handling:** Stores and manages authentication tokens securely.
+- **Client-Side Validation:** Ensures user inputs are validated before submission to improve user experience and reduce unnecessary server requests.
+- **Error Handling:** Provides clear feedback for login and signup failures, including handling verification issues.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Screenshots
+### Sign Up
+![SignIn](app/screenshots/Signup.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Sign In
+![SignIn](app/screenshots/Signin.png)
 
-## Learn More
+### Verification
+![verification](app/screenshots/verify.png)
 
-To learn more about Next.js, take a look at the following resources:
+### Dashboard
+![Dashboard](app/screenshots/Dashboard.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Details
+![Job Description](app/screenshots/Details.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Prerequisites
 
-## Deploy on Vercel
+- Node.js
+- Next.js
+- `next-auth` package
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Installation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/your-username/User-Authentication.git
+   cd User-Authentication
